@@ -1,0 +1,128 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+border: none;
+outline: none;
+scroll-behavior: smooth;
+font-family: 'Nunito', sans-serif;}
+
+html {
+font-size: 62.5%;
+overflow-x: hidden;}
+
+body {
+background: #191f36;
+color: #fff;}
+
+section {
+min-height: 100vh;
+padding: 10rem 9% 2rem;}
+
+.header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 2rem 9%;
+background: #000033;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;}
+
+.logo {
+font-size: 2.5rem;
+color: #fff;
+font-weight: 700;
+cursor: default;}
+
+.navbar a {font-size: 2.1rem;
+color: #fff;
+margin-left: 4rem;
+font-weight: 700;}
+
+.navbar a:hover,
+.navbar a.active {
+color: skyblue;}
+
+
+.about {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+background: #191f36;}
+
+.about-img img {
+width: 28vw; border: 5px solid skyblue; border-radius: 3rem;}
+
+.heading {
+text-align: center;
+font-size: 4.5rem;}
+
+.about-content h2 { text-align: left; line-height: 1.2;}
+
+span{color: skyblue;}
+
+.about-content h3 {
+font-size: 2.6rem;}
+
+.about-content p {
+font-size: 1.6rem;
+margin: 2rem 0 3rem;}
+
+.button {
+display: inline-block;
+padding: 1rem 2.8rem;
+background: #191f36;
+border-radius: 4rem;
+box-shadow: 0 0 1rem skyblue;
+font-size: 1.6rem;
+color: #fff;
+letter-spacing: .1rem;
+font-weight: 600;
+transition: .5s ease;}
+
+.button:hover {color: #191f36; background-color: white; border: 6px solid skyblue; border-radius: 25px;}
+
+footer { 
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+padding: 2rem 9%;
+background
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100; text-align: center;} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
